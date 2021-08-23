@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>나의 MBIT</title>
+    <link rel="stylesheet" href="../style/style.css" />
 </head>
 <body>
     <form action = "/submit" id = "question-form" method ="post">
+        <div class="question-item">
         <div class="status-box">
             <span>1/10</span>
             <div class = "status-bar"></div>
+        </div>
             <div class="question-box">
+        
                 <h2>당신이 가장 재밌었던 수업은?</h2>
                 <ol class="answer-list">
                     <li class="answer-item">
@@ -36,10 +40,12 @@
                     </li>
                 </ol>
             </div>
+
             <div class="button-box">
                 <button type = "button" class = "previous-btn">이전</button>
                 <button type = "button" class = "next-btn">다음</button>
             </div>
+        </div>
         </div>
     </form>
 </body>
